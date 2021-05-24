@@ -8,7 +8,7 @@
 		<version>2.4.6</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.dev.wesraiuga.bds</groupId>
+	<groupId>br.dev.wesraiuga</groupId>
 	<artifactId>bds_task-01_clients-crud</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>bds_task-01_clients-crud</name>

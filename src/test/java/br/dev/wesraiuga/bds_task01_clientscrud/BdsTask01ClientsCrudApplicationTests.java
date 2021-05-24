@@ -1,4 +1,4 @@
-package br.dev.wesraiuga.bds.bds_task01_clientscrud;
+package br.dev.wesraiuga.bds_task01_clientscrud;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
