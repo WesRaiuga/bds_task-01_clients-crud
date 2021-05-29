@@ -93,8 +93,6 @@ Busca paginada de clientes
 ```
 
 </details>
-<br/>
-
 
 ## ![POST](https://img.shields.io/badge/-POST-green?color=49CC90) /clients
 Inserção de novo cliente
@@ -130,7 +128,6 @@ Inserção de novo cliente
 ```
 
 </details>
-<br/>
 
 ## ![GET](https://img.shields.io/badge/-GET-blue?color=61AFFE) /clients/{id}
 Busca de cliente por id
@@ -179,7 +176,6 @@ Busca de cliente por id
 ```
 
 </details>
-<br/>
 
 ## ![PUT](https://img.shields.io/badge/-PUT-orange?color=FCA130) /clients/{id}
 Atualização de cliente
@@ -243,7 +239,6 @@ Atualização de cliente
 ```
 
 </details>
-<br/>
 
 ## ![DELETE](https://img.shields.io/badge/-DELETE-red?color=F93E3E) /clients/{id}
 Exclusão de cliente
@@ -284,7 +279,6 @@ Exclusão de cliente
 ```
 
 </details>
-<br/>
 
 # Como executar o projeto
 Pré-requisitos: Java 11

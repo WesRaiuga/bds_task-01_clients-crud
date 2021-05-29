@@ -93,8 +93,6 @@ Paged client search
 ```
 
 </details>
-<br/>
-
 
 ## ![POST](https://img.shields.io/badge/-POST-green?color=49CC90) /clients
 Insert new client
@@ -130,7 +128,6 @@ Insert new client
 ```
 
 </details>
-<br/>
 
 ## ![GET](https://img.shields.io/badge/-GET-blue?color=61AFFE) /clients/{id}
 Search client by id
@@ -179,7 +176,6 @@ Search client by id
 ```
 
 </details>
-<br/>
 
 ## ![PUT](https://img.shields.io/badge/-PUT-orange?color=FCA130) /clients/{id}
 Update client
@@ -243,7 +239,6 @@ Update client
 ```
 
 </details>
-<br/>
 
 ## ![DELETE](https://img.shields.io/badge/-DELETE-red?color=F93E3E) /clients/{id}
 Delete client
@@ -284,7 +279,6 @@ Delete client
 ```
 
 </details>
-<br/>
 
 # How to run the project
 Requirements: Java 11
