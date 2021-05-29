@@ -1,6 +1,6 @@
 # Clients CRUD API
 
-[![Pt-BR Badge](https://img.shields.io/badge/README-Pt--BR-green?style=flat&color=00bd00)](README.md)
+[![Pt-BR Badge](https://img.shields.io/badge/README-Pt--BR-green?style=flat&color=00bd00)](README.pt-br.md)
 
 Clients API, developed as an exercise of the [DevSuperior's](https://devsuperior.com "DevSuperior's website") **Spring React Bootcamp**.
 
