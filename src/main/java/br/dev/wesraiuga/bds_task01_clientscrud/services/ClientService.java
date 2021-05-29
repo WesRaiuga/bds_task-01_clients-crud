@@ -69,4 +69,14 @@ public class ClientService {
             throw new ResourceNotFoundException("Client not found");
         }
     }
+
+    public void delete(Long id) {
+        try {
+            repository.deleteById(id);
+        }
+        catch (Exception e ) {
+            throw new ResourceNotFoundException("Client not found");
+        }
+    }
+
 }
