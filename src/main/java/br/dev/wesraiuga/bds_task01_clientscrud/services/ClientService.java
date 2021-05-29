@@ -30,7 +30,7 @@ public class ClientService {
     public ClientDTO findById(Long id) {
         Optional<Client> obj = repository.findById(id);
 
-        Client entity = obj.orElseThrow(() -> new ResourceNotFoundException("Client not found"));
+        Client entity = obj.orElseThrow(() -> new ResourceNotFoundException("Client not found (id: " + id + ")"));
 
         return new ClientDTO(entity);
     }
@@ -66,7 +66,7 @@ public class ClientService {
             return new ClientDTO(entity);
         }
         catch (EntityNotFoundException e) {
-            throw new ResourceNotFoundException("Client not found");
+            throw new ResourceNotFoundException("Client not found (id: " + id + ")");
         }
     }
 
@@ -75,7 +75,7 @@ public class ClientService {
             repository.deleteById(id);
         }
         catch (Exception e ) {
-            throw new ResourceNotFoundException("Client not found");
+            throw new ResourceNotFoundException("Client not found (id: " + id + ")");
         }
     }
 
