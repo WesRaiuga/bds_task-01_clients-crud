@@ -13,7 +13,7 @@ Clients API, developed as an exercise of the [DevSuperior's](https://devsuperior
 
 # Documentation
 
-## Client
+### Client
 ## ![GET](https://img.shields.io/badge/-GET-blue?color=61AFFE) /clients
 Paged client search
 <details>

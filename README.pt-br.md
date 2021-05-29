@@ -13,7 +13,7 @@ API de clientes, desenvolvida como exercício do curso **Bootcamp Spring React**
 
 # Documentação
 
-## Cliente
+### Cliente
 ## ![GET](https://img.shields.io/badge/-GET-blue?color=61AFFE) /clients
 Busca paginada de clientes
 <details>
